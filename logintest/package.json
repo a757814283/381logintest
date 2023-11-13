@@ -11,7 +11,7 @@
         "body-parser": "*",
         "cookie-session": "*"
     },
-    "engine": "*",
+    "engine": "21.1.0",
     "scripts": {
         "start": "node server"
     }
