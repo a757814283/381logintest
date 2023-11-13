@@ -1,0 +1,25 @@
+<html>
+
+<body>
+	<p>Create Your Account Here</p>
+	<ol>
+	</ol>
+	<hr>
+	<form action="/createaccount" method="post">
+		Username: <input type="text" name="username"><br>
+		Password: <input type="password" name="password"><br>
+		<input type="submit" value="Create">
+	</form>
+	<a href='/login'>Back</a>
+	<% if (Message){ %>
+	<div class="message">
+	<%=Message%>
+	</div>
+	<% } %>
+	
+	
+</body>
+
+</html>
+
+
